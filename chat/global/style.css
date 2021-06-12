@@ -26,7 +26,7 @@ width:100%;
 }*/
 
 .chats {
-padding:0;
+padding:1rem 0;
 list-style:none;
 top:0;
 display:inline-block;
@@ -37,6 +37,10 @@ overflow:scroll;
 flex:1;
 }
 
+.chats li.me:nth-last-child(2){
+display:none;
+}
+
 .chats li {
 background:#0078ff;
 width:auto;
@@ -44,10 +48,14 @@ margin:1.4rem;
 padding:0.7rem;
 color:#fcfcfc;
 border-radius:0 30px 30px 30px;
-margin-top:2rem;
+margin-top:1.4rem;
 clear:both;
 float:left;
 position:relative;
+overflow-wrap:break-word;
+word-break:break-all;
+max-width:80vw;
+hyphens:auto;
 }
 
 .chats li.me {
@@ -62,6 +70,9 @@ margin-top:-2rem;
 margin-left:-0.4rem;
 font-size:0.7rem;
 color:black;
+overflow:hidden;
+height:1rem;
+width:80vw;
 }
 
 .chats span.me {
