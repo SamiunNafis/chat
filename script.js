@@ -12,6 +12,7 @@ $('.btn-global').click(() => {
 	$('.btn-global').addClass('active')
 	$('.btn-personal').removeClass('active')
 })
+/*
+$("#root").load('chat/global/chat.html')
+$('.btn-global').addClass('active')*/
 
-/*$("#root").load('chat/global/chat.html')
-	$('.btn-global').addClass('active')*/

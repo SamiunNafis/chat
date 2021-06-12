@@ -13,4 +13,5 @@ span.setAttribute('class', 'sender me')
 span.innerText = 'Sender'
 li.appendChild(span)
 chats.appendChild(li)
+alert(txtInp)
 }
