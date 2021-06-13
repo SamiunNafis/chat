@@ -57,6 +57,8 @@ overflow-wrap:break-word;
 word-break:break-all;
 max-width:80vw;
 hyphens:auto;
+max-height:300px;
+overflow-y:scroll;
 }
 
 .chats li.me {
