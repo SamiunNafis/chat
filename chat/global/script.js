@@ -5,7 +5,7 @@ function load() {
 firebase.database().ref('global/').once('value', (snapshot, s) => {
 	snapshot.forEach((ChildSnap) => {
 		//console.log(ChildSnap.val().Text)
-		appendMsg(ChildSnap.val().Text, ChildSnap.val().Name)
+		//appendMsg(ChildSnap.val().Text, ChildSnap.val().Name)
 	})
 })
 }
