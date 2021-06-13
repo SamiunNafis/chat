@@ -39,6 +39,7 @@ flex:1;
 
 .chats li.me:nth-last-child(2){
 display:none;
+color:green;
 }
 
 .chats li {
